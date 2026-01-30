@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+@media (max-width: 576px) {
+  .phn-mode {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 40px 20px;
+    place-items: center;
+    align-items: center;
+  }
+}
