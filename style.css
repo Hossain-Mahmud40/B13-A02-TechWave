@@ -1,7 +1,40 @@
 @import "tailwindcss";
 
+/* map each item to an area */
+.hd-phn {
+  grid-area: hd-phn;
+  align-items: center;
+}
+.mbl-phn {
+  grid-area: mbl-phn;
+}
+.location {
+  grid-area: location;
+}
+.lighting {
+  grid-area: lighting;
+}
+.book {
+  grid-area: book;
+}
+
 .text-phn {
   display: grid;
+  gap: 30px;
+  padding: 120px 200px;
+  /* padding-bottom: 100px; */
+  grid-template-areas:
+    "hd-phn mbl-phn mbl-phn"
+    "hd-phn location location"
+    "lighting lighting book";
+}
+
+.hero-box {
+  background-color: rgba(53, 17, 101, 0.4);
+  /* border: 5px solid red; */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  padding: 57px 40px;
+  border-radius: 40px;
 }
 
 @media (max-width: 576px) {
