@@ -46,4 +46,16 @@
     place-items: center;
     align-items: center;
   }
+  .text-phn {
+    gap: 16px;
+    padding: 24px;
+    grid-template-areas:
+      "hd-phn"
+      "hd-phn"
+      "mbl-phn"
+      "location"
+      "lighting"
+      "lighting"
+      "book";
+  }
 }
