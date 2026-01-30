@@ -9,7 +9,7 @@
   </head>
   <body>
     <nav
-      class="flex flex-row justify-between items-center p-4 md:p-6 border-2 border-b-[#43167e] bg-[#1A0B2E] relative hidden"
+      class="flex flex-row justify-between items-center p-4 md:p-6 border-2 border-b-[#43167e] bg-[#1A0B2E] relative"
     >
       <div class="md:pl-[100px]">
         <h1>
@@ -59,37 +59,11 @@
     </nav>
 
     <header
-      class="hidden bg-cover bg-center bg-no-repeat min-h-screen flex flex-col items-center justify-center px-4 py-12 relative overflow-hidden"
+      class="bg-cover bg-center bg-no-repeat min-h-screen flex flex-col items-center justify-center px-4 py-12 relative overflow-hidden"
       style="background-image: url(&quot;assets/hero-bg.png&quot;)"
     >
       <!-- Hero Circle with Microphone and NEW Badge -->
       <div class="relative mb-12 flex items-center justify-center gap-0">
-        <!-- Left Sound Wave -->
-        <div
-          class="hidden md:block w-32 lg:w-48 h-32 lg:h-48 mr-[-20px] lg:mr-[-30px] z-0"
-        >
-          <svg viewBox="0 0 200 100" class="w-full h-full">
-            <path
-              d="M 0 50 Q 10 30, 20 50 T 40 50 T 60 50 T 80 50 T 100 50 T 120 50 T 140 50 T 160 50 T 180 50 T 200 50"
-              stroke="rgba(255, 193, 7, 0.3)"
-              stroke-width="2"
-              fill="none"
-            />
-            <path
-              d="M 0 50 Q 10 40, 20 50 T 40 50 T 60 50 T 80 50 T 100 50 T 120 50 T 140 50 T 160 50"
-              stroke="rgba(255, 193, 7, 0.5)"
-              stroke-width="2"
-              fill="none"
-            />
-            <path
-              d="M 0 50 Q 10 20, 20 50 T 40 50 T 60 50 T 80 50 T 100 50 T 120 50 T 140 50"
-              stroke="rgba(255, 193, 7, 0.7)"
-              stroke-width="3"
-              fill="none"
-            />
-          </svg>
-        </div>
-
         <!-- Hero Circle with Microphone -->
         <div class="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 z-10">
           <img
@@ -110,32 +84,6 @@
             NEW
           </div>
         </div>
-
-        <!-- Right Sound Wave -->
-        <div
-          class="hidden md:block w-32 lg:w-48 h-32 lg:h-48 ml-[-20px] lg:ml-[-30px] z-0"
-        >
-          <svg viewBox="0 0 200 100" class="w-full h-full">
-            <path
-              d="M 0 50 Q 10 30, 20 50 T 40 50 T 60 50 T 80 50 T 100 50 T 120 50 T 140 50 T 160 50 T 180 50 T 200 50"
-              stroke="rgba(255, 193, 7, 0.3)"
-              stroke-width="2"
-              fill="none"
-            />
-            <path
-              d="M 20 50 Q 30 40, 40 50 T 60 50 T 80 50 T 100 50 T 120 50 T 140 50 T 160 50 T 180 50 T 200 50"
-              stroke="rgba(255, 193, 7, 0.5)"
-              stroke-width="2"
-              fill="none"
-            />
-            <path
-              d="M 40 50 Q 50 20, 60 50 T 80 50 T 100 50 T 120 50 T 140 50 T 160 50 T 180 50 T 200 50"
-              stroke="rgba(255, 193, 7, 0.7)"
-              stroke-width="3"
-              fill="none"
-            />
-          </svg>
-        </div>
       </div>
 
       <!-- Title -->
@@ -152,36 +100,22 @@
       </p>
 
       <!-- Buttons -->
-      <div class="flex flex-col sm:flex-row gap-4 items-center">
+      <div class="flex sm:flex-row gap-4 items-center">
         <button
-          class="bg-gradient-to-r from-pink-500 via-purple-500 to-orange-400 text-white px-8 py-4 rounded-full font-semibold flex items-center gap-2 hover:opacity-90 transition-opacity"
+          class="bg-gradient-to-r from-pink-500 via-purple-500 to-orange-400 text-white px-8 py-4 rounded-full font-semibold flex items-center gap-2 hover:opacity-90 transition-opacity font-bold"
         >
           <img src="assets/spotify.png" alt="Spotify" class="w-6 h-6" />
           Listen On Spotify
         </button>
         <button
-          class="border-2 border-[#00D9A3] text-[#00D9A3] px-8 py-4 rounded-full font-semibold flex items-center gap-2 hover:bg-[#00D9A3] hover:text-white transition-all"
+          class="border-2 border-[#00D9A3] text-[#00D9A3] px-8 py-4 rounded-full font-semibold flex items-center gap-2 hover:bg-[#00D9A3] hover:text-white transition-all font-bold"
         >
-          <svg
-            class="w-6 h-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-            ></path>
-          </svg>
+          <img src="assets/message.png" alt="Spotify" class="" />
           Subscribe
         </button>
       </div>
     </header>
-    <section
-      class="bg-[#1A0B2E] text-center border-b-2 border-[#43167e] hidden"
-    >
+    <section class="bg-[#1A0B2E] text-center pb-4">
       <h1 class="text-[#fff] text-[48px] font-bold pt-5">About the Podcast</h1>
       <p class="text-[rgba(255,255,255,0.8)] mt-3">
         TechWave is your go-to podcast for staying ahead in the fast-paced world
@@ -195,7 +129,7 @@
       </p>
     </section>
     <section
-      class="bg-[#1A0B2E] text-[#00FF88] flex justify-around phn-mode hidden"
+      class="bg-[#1A0B2E] text-[#00FF88] flex justify-around phn-mode pb-10"
     >
       <div class="">
         <h1 class="text-[48px] font-semibold">150K+</h1>
@@ -214,7 +148,7 @@
         <p class="text-[rgba(255,255,255,0.8)]">Industry Experts</p>
       </div>
     </section>
-    <section class="bg-[#230E3D] hidden">
+    <section class="bg-[#230E3D]">
       <h1 class="text-[48px] font-bold text-white text-center pt-[100px]">
         Why Choose TechWave
       </h1>
@@ -266,7 +200,7 @@
       </div>
     </section>
 
-    <section class="feature bg-[#1A0B2E] hidden">
+    <section class="feature bg-[#1A0B2E]">
       <div
         class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-12 pt-12 sm:pt-16 lg:pt-20 pb-10"
       >
@@ -417,7 +351,7 @@
         </div>
       </div>
 
-      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-12">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-12 pb-50">
         <!-- Heading -->
         <h1
           class="text-center text-white font-bold text-3xl sm:text-4xl lg:text-[48px] pt-12 sm:pt-16 lg:pt-[90px] pb-8 sm:pb-10"
@@ -471,14 +405,16 @@
         </div>
       </div>
     </section>
-    <footer class="relative overflow-hidden">
+    <footer class="relative overflow-hidden w-full pt-12">
       <!-- Background image -->
       <div
         class="absolute inset-0 bg-[url('/assets/footer-bg.png')] bg-cover bg-center"
       ></div>
 
       <!-- Content -->
-      <div class="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-12 py-14">
+      <div
+        class="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-12 py-12 sm:py-14"
+      >
         <!-- Logo -->
         <h2
           class="text-center text-4xl sm:text-5xl font-extrabold tracking-tight"
@@ -492,7 +428,7 @@
 
         <!-- Platforms -->
         <div
-          class="mt-5 flex flex-wrap justify-center items-center gap-6 text-white/80"
+          class="mt-6 text-white/80 grid grid-cols-2 gap-x-8 gap-y-6 justify-items-center sm:flex sm:flex-wrap sm:justify-center sm:items-center sm:gap-6"
         >
           <a
             href="#"
@@ -536,7 +472,7 @@
         </div>
 
         <!-- Copyright -->
-        <p class="mt-6 text-center text-white/50 text-xs">
+        <p class="mt-8 text-center text-white/50 text-xs">
           © 2026 TechWave Podcast. All rights reserved.
         </p>
       </div>
