@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+.text-phn {
+  display: grid;
+}
+
 @media (max-width: 576px) {
   .phn-mode {
     display: grid;
