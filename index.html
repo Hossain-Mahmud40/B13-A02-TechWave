@@ -266,11 +266,25 @@
       </div>
     </section>
 
-    <section class="feature bg-[#1A0B2E]">
-      <div class="">
-        <h1 class="text-[48px] font-bold text-white">Featured Episodes</h1>
-        <div class="video-card">
-          <div class="w-[23.75rem] bg-[#250D44]">
+    <section class="feature bg-[#1A0B2E] hidden">
+      <div
+        class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-12 pt-12 sm:pt-16 lg:pt-20 pb-10"
+      >
+        <!-- Title -->
+        <h1
+          class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white text-center mb-8 sm:mb-10"
+        >
+          Featured Episodes
+        </h1>
+
+        <!-- Cards Wrapper -->
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 sm:gap-6 lg:gap-8 place-items-center"
+        >
+          <!-- Card 1 -->
+          <div
+            class="w-[23.75rem] max-w-[23.75rem] bg-[#250D44] rounded-xl overflow-hidden h-[30.375rem]"
+          >
             <a
               href="https://www.youtube.com/watch?v=NQp3cbSkqbo&list=RDxpA-mchj6Ds&index=7"
               target="_blank"
@@ -279,31 +293,44 @@
               <img
                 src="assets/level5.jpg"
                 alt=""
-                class="w-full h-[13.375rem] rounded-t-xl object-cover"
+                class="w-full h-[13.375rem] object-cover"
               />
-
               <img
                 src="assets/play.png"
                 alt="Play"
                 class="absolute inset-0 m-auto w-16 h-16"
               />
+
+              <!-- Optional hover overlay -->
+              <span
+                class="absolute inset-0 bg-black/20 opacity-0 hover:opacity-100 transition"
+              ></span>
             </a>
-            <h1 class="text-[22px] font-bold text-white m-4">
-              LEVEL FIVE - TUMI (Official Lyric Video)
-            </h1>
-            <p class="text-[rgba(255,255,255,0.6)] m-4 mt-0">
-              Lyrics : Aiedid Rashid<br />
-              Produced : Razin Halim<br />
-              Drums Recorded : Studio Baksho<br />
-              Mix and mastered : A.K. Ratul<br />
-              Artwork : Ehsan Kaizer
-            </p>
-            <div class="flex gap-[6px] items-center m-4">
-              <img src="assets/clock.png" alt="" class="mb-4" />
-              <h1 class="text-[#00FF88] font-semibold mb-4">4 min</h1>
+
+            <div class="p-4">
+              <h2 class="text-[22px] font-bold text-white leading-snug">
+                LEVEL FIVE - TUMI (Official Lyric Video)
+              </h2>
+
+              <p class="text-white/60 mt-3 text-sm leading-relaxed">
+                Lyrics : Aiedid Rashid<br />
+                Produced : Razin Halim<br />
+                Drums Recorded : Studio Baksho<br />
+                Mix and mastered : A.K. Ratul<br />
+                Artwork : Ehsan Kaizer
+              </p>
+
+              <div class="flex gap-2 items-center mt-4">
+                <img src="assets/clock.png" alt="" class="w-4 h-4" />
+                <p class="text-[#00FF88] font-semibold">4 min</p>
+              </div>
             </div>
           </div>
-          <div class="w-[23.75rem] bg-[#250D44]">
+
+          <!-- Card 2 -->
+          <div
+            class="w-[23.75rem] max-w-[23.75rem] h-[30.375rem] bg-[#250D44] rounded-xl overflow-hidden"
+          >
             <a
               href="https://www.youtube.com/watch?v=NQp3cbSkqbo&list=RDxpA-mchj6Ds&index=7"
               target="_blank"
@@ -312,31 +339,42 @@
               <img
                 src="assets/kodom.jpg"
                 alt=""
-                class="w-full h-[13.375rem] rounded-t-xl object-cover"
+                class="w-full h-[13.375rem] object-cover"
               />
-
               <img
                 src="assets/play.png"
                 alt="Play"
                 class="absolute inset-0 m-auto w-16 h-16"
               />
+              <span
+                class="absolute inset-0 bg-black/20 opacity-0 hover:opacity-100 transition"
+              ></span>
             </a>
-            <h1 class="text-[22px] font-bold text-white m-4">
-              Blue Jeans - Kodom
-            </h1>
-            <p class="text-[rgba(255,255,255,0.6)] m-4 mt-0">
-              Music Composition : Tousif Mujtaba Shourin<br />
-              Vocal : Naim Imran Sharot<br />
-              Guitar : Tousif Mujtaba Shourin<br />
-              Piano & Keys : Shahrin Shahriar<br />
-              Drums : Dewan Anamul Raju
-            </p>
-            <div class="flex gap-[6px] items-center m-4">
-              <img src="assets/clock.png" alt="" class="mb-4" />
-              <h1 class="text-[#00FF88] font-semibold mb-4">5 min</h1>
+
+            <div class="p-4">
+              <h2 class="text-[22px] font-bold text-white leading-snug">
+                Blue Jeans - Kodom
+              </h2>
+
+              <p class="text-white/60 mt-3 text-sm leading-relaxed">
+                Music Composition : Tousif Mujtaba Shourin<br />
+                Vocal : Naim Imran Sharot<br />
+                Guitar : Tousif Mujtaba Shourin<br />
+                Piano & Keys : Shahrin Shahriar<br />
+                Drums : Dewan Anamul Raju
+              </p>
+
+              <div class="flex gap-2 items-center mt-4">
+                <img src="assets/clock.png" alt="" class="w-4 h-4" />
+                <p class="text-[#00FF88] font-semibold">5 min</p>
+              </div>
             </div>
           </div>
-          <div class="w-[23.75rem] bg-[#250D44]">
+
+          <!-- Card 3 -->
+          <div
+            class="w-[23.75rem] max-w-[23.75rem] h-[30.375rem] bg-[#250D44] rounded-xl overflow-hidden"
+          >
             <a
               href="https://www.youtube.com/watch?v=NQp3cbSkqbo&list=RDxpA-mchj6Ds&index=7"
               target="_blank"
@@ -345,49 +383,163 @@
               <img
                 src="assets/manush.jpg"
                 alt=""
-                class="w-full h-[13.375rem] rounded-t-xl object-cover"
+                class="w-full h-[13.375rem] object-cover"
               />
-
               <img
                 src="assets/play.png"
                 alt="Play"
                 class="absolute inset-0 m-auto w-16 h-16"
               />
+              <span
+                class="absolute inset-0 bg-black/20 opacity-0 hover:opacity-100 transition"
+              ></span>
             </a>
-            <h1 class="text-[22px] font-bold text-white m-4">
-              Kichhu Manush More Jaay Pochishe
-            </h1>
-            <p class="text-[rgba(255,255,255,0.6)] m-4 mt-0">
-              Song : Kichhu Manush More Jaay Pochishe<br />
-              Singer : Saif Zohan<br />
-              Lyrics : Saif Zohan<br />Composition : Saif Zohan<br />
-              Music : Shovon Roy
-            </p>
-            <div class="flex gap-[6px] items-center m-4">
-              <img src="assets/clock.png" alt="" class="mb-4" />
-              <h1 class="text-[#00FF88] font-semibold mb-4">7 min</h1>
+
+            <div class="p-4">
+              <h2 class="text-[22px] font-bold text-white leading-snug">
+                Kichhu Manush More Jaay Pochishe
+              </h2>
+
+              <p class="text-white/60 mt-3 text-sm leading-relaxed">
+                Song : Kichhu Manush More Jaay Pochishe<br />
+                Singer : Saif Zohan<br />
+                Lyrics : Saif Zohan<br />
+                Composition : Saif Zohan<br />
+                Music : Shovon Roy
+              </p>
+
+              <div class="flex gap-2 items-center mt-4">
+                <img src="assets/clock.png" alt="" class="w-4 h-4" />
+                <p class="text-[#00FF88] font-semibold">7 min</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="">
-        <h1 class=""></h1>
-        <div class="">
-          <div class="">
-            <img src="" alt="" />
+
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-12">
+        <!-- Heading -->
+        <h1
+          class="text-center text-white font-bold text-3xl sm:text-4xl lg:text-[48px] pt-12 sm:pt-16 lg:pt-[90px] pb-8 sm:pb-10"
+        >
+          Meet the Host
+        </h1>
+
+        <!-- Card -->
+        <div
+          class="bg-[#250d44] rounded-3xl p-6 sm:p-8 flex flex-col md:flex-row gap-6 sm:gap-8 items-center"
+        >
+          <!-- Image -->
+          <div class="flex-shrink-0">
+            <img
+              src="/assets/host.png"
+              alt="Host"
+              class="w-40 sm:w-48 md:w-56 lg:w-64 rounded-2xl object-cover"
+            />
           </div>
-          <div class="">
-            <h1 class=""></h1>
-            <p class=""></p>
-            <div class="">
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
+
+          <!-- Content -->
+          <div class="text-center md:text-left">
+            <h2
+              class="text-white font-bold text-2xl sm:text-3xl lg:text-[32px]"
+            >
+              Alex Kumar
+            </h2>
+
+            <p class="text-white/60 mt-3 text-sm sm:text-base leading-relaxed">
+              Tech entrepreneur, productivity expert, and lifelong learner. Alex
+              has been in the tech industry for over 10 years, working with
+              startups and Fortune 500 companies. Through TechWave, Alex shares
+              insights from industry leaders and practical advice for anyone
+              looking to grow in tech.
+            </p>
+
+            <!-- Social Icons -->
+            <div
+              class="flex justify-center md:justify-start gap-3 sm:gap-4 pt-4"
+            >
+              <img src="/assets/linkedin.png" alt="LinkedIn" class="w-6 h-6" />
+              <img src="/assets/x.png" alt="X" class="w-6 h-6" />
+              <img
+                src="/assets/instagram.png"
+                alt="Instagram"
+                class="w-6 h-6"
+              />
+              <img src="/assets/youtube.png" alt="YouTube" class="w-6 h-6" />
             </div>
           </div>
         </div>
       </div>
     </section>
+    <footer class="relative overflow-hidden">
+      <!-- Background image -->
+      <div
+        class="absolute inset-0 bg-[url('/assets/footer-bg.png')] bg-cover bg-center"
+      ></div>
+
+      <!-- Content -->
+      <div class="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-12 py-14">
+        <!-- Logo -->
+        <h2
+          class="text-center text-4xl sm:text-5xl font-extrabold tracking-tight"
+        >
+          <span class="text-white">Tech</span
+          ><span
+            class="bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 bg-clip-text text-transparent"
+            >Wave</span
+          >
+        </h2>
+
+        <!-- Platforms -->
+        <div
+          class="mt-5 flex flex-wrap justify-center items-center gap-6 text-white/80"
+        >
+          <a
+            href="#"
+            class="flex items-center gap-2 hover:text-white transition"
+          >
+            <img src="/assets/spotify.png" class="w-4 h-4" alt="Spotify" />
+            <span class="text-sm">Spotify</span>
+          </a>
+
+          <a
+            href="#"
+            class="flex items-center gap-2 hover:text-white transition"
+          >
+            <img
+              src="/assets/apple-podcast.png"
+              class="w-4 h-4"
+              alt="Apple Podcasts"
+            />
+            <span class="text-sm">Apple Podcasts</span>
+          </a>
+
+          <a
+            href="#"
+            class="flex items-center gap-2 hover:text-white transition"
+          >
+            <img
+              src="/assets/youtube-podcast.png"
+              class="w-4 h-4"
+              alt="YouTube"
+            />
+            <span class="text-sm">YouTube</span>
+          </a>
+
+          <a
+            href="#"
+            class="flex items-center gap-2 hover:text-white transition"
+          >
+            <img src="/assets/twitter.png" class="w-4 h-4" alt="Twitter" />
+            <span class="text-sm">Twitter</span>
+          </a>
+        </div>
+
+        <!-- Copyright -->
+        <p class="mt-6 text-center text-white/50 text-xs">
+          © 2026 TechWave Podcast. All rights reserved.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
